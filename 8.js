@@ -1,3 +1,10 @@
-const str = 'J Y N E L';
-const SpacesRemoved = str.replaceAll (' ', '')
-console.log(SpacesRemoved);
+// Beginning of the function
+function Name(string){
+const allSpacesRemoved = string.replaceAll (' ', '')
+return allSpacesRemoved
+}
+// The string the space is being removed from
+const txt = 'J Y N E L';
+// Output
+console.log(Name(txt));
+
